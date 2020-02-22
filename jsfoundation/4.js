@@ -5,8 +5,11 @@
  * Output: Boolean, true if it is an even number, false if it is an odd number
  */
 
-const solution = () => {
-  // Write the solution here
+const solution = (num1) => {
+  if (num1 % 2 === 0) {
+    return true
+  }
+  return false
 };
 
 module.exports = {
