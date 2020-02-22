@@ -4,8 +4,12 @@
  * Output: boolean
  */
 
-const solution = () => {
-  // Write the solution here
+const solution = (a) => {
+  a()
+  if (typeof a() === 'undefined') {
+    return false
+  }
+  return true
 };
 
 module.exports = {
