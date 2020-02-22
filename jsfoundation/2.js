@@ -5,8 +5,12 @@
  * Output: The larger number
  */
 
-const solution = () => {
-  // Write the solution here
+const solution = (num1, num2) => {
+  if (num1 > num2) {
+    return num1
+  }
+    else {return num2
+    }
 };
 
 module.exports = {
