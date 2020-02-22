@@ -5,8 +5,9 @@
  * Output: Sum of the 2 numbers
  */
 
-const solution = () => {
-  // Write the solution here
+const solution = (num1, num2) => {
+  const sumNum = num1 + num2
+  return sumNum
 };
 
 module.exports = {
