@@ -4,8 +4,10 @@
  * Output: number
  */
 
-const solution = () => {
-  // Write the solution here
+
+const solution = (a, num1) => {
+a()
+  return (a() + num1)
 };
 
 module.exports = {
