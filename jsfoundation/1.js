@@ -6,8 +6,7 @@
  */
 
 const solution = (num1, num2) => {
-  const sumNum = num1 + num2
-  return sumNum
+  return num1 + num2;
 };
 
 module.exports = {
