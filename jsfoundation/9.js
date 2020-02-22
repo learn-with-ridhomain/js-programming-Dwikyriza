@@ -5,8 +5,12 @@
  * Output: boolean
  */
 
-const solution = () => {
-  // Write the solution here
+const solution = (str1, num1) => {
+  if (typeof str1 === 'string' && typeof num1 === 'number') {
+    return true
+  } else {
+    return false
+  }
 };
 
 module.exports = {
